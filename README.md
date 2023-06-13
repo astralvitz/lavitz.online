@@ -1,3 +1,11 @@
+# Lavitz.Online
+
+Version 1.0 - simple landing page
+
+So much planned.
+
+# Setup
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

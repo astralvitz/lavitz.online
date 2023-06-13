@@ -1,0 +1,96 @@
+.nav {
+  @apply sm:flex;
+  @apply text-white;
+  @apply text-center;
+  @apply mb-8;
+  @apply px-4;
+}
+
+.nav a {
+  @apply border-b-2;
+  @apply border-green-700;
+}
+
+.label {
+  @apply text-green-500;
+
+  @apply bg-black;
+  @apply border;
+  @apply border-r-green-700;
+  @apply rounded;
+
+  @apply px-2;
+  @apply sm:mr-4;
+  @apply mb-2;
+  @apply sm:mb-0;
+
+  @apply self-center;
+}
+
+.items {
+  @apply flex;
+  @apply flex-col;
+  @apply sm:flex-row;
+  @apply justify-between;
+  @apply items-center;
+  @apply gap-4;
+  @apply text-lg;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 240px;
+  @apply bg-green-700;
+  @apply text-white;
+  text-align: center;
+  @apply p-1;
+  @apply rounded-md;
+
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: -50%;
+}
+
+.item:hover .tooltip {
+  visibility: visible;
+}
+
+.item:nth-last-child(1) .tooltip {
+  left: -200%;
+  @apply lg:left-[-100%];
+}
+
+/* FONTS */
+.venice {
+  @apply font-venice;
+}
+
+.magis {
+  @apply font-magis;
+}
+
+.slant {
+  @apply font-slant;
+}
+
+.moonstar {
+  @apply font-moonstar;
+}
+
+.roboto {
+  @apply font-roboto;
+}
+
+.cyber {
+  @apply font-cyber;
+}
+
+.diabolica {
+  @apply font-diabolica;
+}

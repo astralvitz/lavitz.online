@@ -1,0 +1,29 @@
+.starclip {
+  clip-path: url(#star-cp);
+  
+  /* width: 50vw;
+  height: 50vw;
+  max-height: 75vh;
+  max-width: 75vh; */
+  width: 25vw;
+  height: 25vw;
+  max-height: 25vh;
+  max-width: 25vh;
+  
+  background-size: cover;
+  background-blend-mode: screen;
+  
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  @apply mx-auto;
+}
+
+.clipred {
+  /* background-color: #006600; */
+  @apply bg-green-900;
+  /* background-image: url("https://media.giphy.com/media/pE6GG0V2JCKUo/giphy.gif"); */
+  background-image: url("/LStar-CloakWalk.gif");
+  
+  /* transform: translateX(-65%) translateY(-50%); */
+}

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face { font-family: Moonstar; src: url('/Moonstar.ttf'); }
+  @font-face { font-family: Venice; src: url('/VeniceClassic.ttf'); }
+  @font-face { font-family: Magis; src: url('/magisguild.woff2'); }
+  @font-face { font-family: Slant; src: url('/SLANT.TTF'); }
+  @font-face { font-family: Roboto; src: url('/RobotoCondensed-Bold.ttf'); }
+  @font-face { font-family: CyberCaligraphic; src: url('/CyberCaligraphic.ttf'); }
+  @font-face { font-family: Diabolica; src: url('/Diabolica-VRBB.ttf'); }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,11 +27,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* background-color: black; */
+  background-image: url('/bgmarblegreen.gif');
+  @apply bg-repeat;
 }
