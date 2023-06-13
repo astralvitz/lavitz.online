@@ -27,7 +27,7 @@ export function CenterNav() {
         </div>
         <div className={styles.item}>
           <a href="http://starscape.world/" target="_blank" rel="noopener noreferrer" className={styles.venice}>StarScapeWorld</a>
-          <span className={styles.tooltip}>epic fantasy world expressed in games &amp; multimedia</span>
+          <span className={styles.tooltip}>epic fantasy world expressed in games &amp; lore, eventually™</span>
         </div>
         <div className={styles.item}>
           <a href="https://twitter.com/lavitzstar" target="_blank" rel="noopener noreferrer" className={styles.diabolica}>Lavitz☆</a>
