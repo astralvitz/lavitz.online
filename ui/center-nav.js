@@ -22,11 +22,11 @@ export function CenterNav() {
           <span className={styles.tooltip}>modern agency of design, branding, strategy, development and marketing</span>
         </div>
         <div className={styles.item}>
-          <a href="https://newparadigmnavigators.community" target="_blank" rel="noopener noreferrer" className={styles.cyber}>NewParadigmNavigators</a>
+          <a href="https://newparadigmnavigators.community" target="_blank" rel="noopener noreferrer" className={styles.cyber}>NewParadigm Navigators</a>
           <span className={styles.tooltip}>sub-group of Scientific And Medical Network organizing the Symposium for Students of Spiritual Science in July 2023</span>
         </div>
         <div className={styles.item}>
-          <a href="http://starscape.world/" target="_blank" rel="noopener noreferrer" className={styles.venice}>StarScape World</a>
+          <a href="http://starscape.world/" target="_blank" rel="noopener noreferrer" className={styles.venice}>StarScapeWorld</a>
           <span className={styles.tooltip}>epic fantasy world expressed in games &amp; multimedia</span>
         </div>
         <div className={styles.item}>

@@ -23,7 +23,7 @@
   @apply mt-12;
 }
 .text {
-  font-family: 'Moonstar';
+  @apply font-moonstar;
   /* font-family: 'RobotoCondensed'; */
   font-size: 22px;
   line-height: 32px;
