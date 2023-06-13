@@ -2,7 +2,7 @@
 
 Version 1.0 - simple landing page
 
-So much planned.
+So much planned. :)
 
 # Setup
 
